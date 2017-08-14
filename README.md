@@ -1,17 +1,15 @@
 Packer files for Windows 2016 / VMWare Fusion
 =============================================
 
-A set of packer files for a minimal Windows 2016 virtual machine. Cobbled together 
-from various sources.
+A packer files for a minimal Windows 2016 virtual machine with just enough to run docker accessible
+from the host system.
 
-Designed in multiple layers, to allow iterating without waiting for hours for the lower
-steps to build.
+Packages Included
+-----------------
 
-Phase 1
--------
-
-A basic Windows 2016 install with updates applied and chocolatey installed. WinRM is enabled.
-
+ * Chocolatey
+ * OpenSSH
+ * VMWare Guest Tools
 
 References/Sources
 ------------------

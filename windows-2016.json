@@ -51,8 +51,12 @@
     "type": "powershell",
      "scripts": [
         "./scripts/install-chocolatey.ps1",
-        "./scripts/install-vmware-tools.ps1",
-        "./scripts/install-openssh.ps1"
-    ]
+        "./scripts/install-openssh.ps1",
+        "./scripts/install-vmware-tools.ps1"
+    ],
+    "valid_exit_codes": [0, 1641]
+  },
+  {
+    "type": "windows-restart"
   }]
 }
